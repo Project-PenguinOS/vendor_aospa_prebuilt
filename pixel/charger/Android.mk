@@ -1,4 +1,7 @@
-# Copyright 2020 The Android Open Source Project
+#
+# SPDX-FileCopyrightText: The Android Open Source Project
+# SPDX-License-Identifier: Apache-2.0
+#
 
 LOCAL_PATH := $(call my-dir)
 
