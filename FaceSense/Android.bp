@@ -8,7 +8,7 @@ java_library {
     sdk_version: "current",
     required: [
         "libFaceDetectCA",
-        "libmegface",
+        "libmegface_system",
         "libMegviiUnlock",
         "libMegviiUnlock-jni-1.2",
         "default_permissions_co.aospa.sense.xml",
@@ -32,7 +32,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmegface",
+    name: "libmegface_system",
+    stem: "libmegface",
     strip: {
         none: true,
     },
